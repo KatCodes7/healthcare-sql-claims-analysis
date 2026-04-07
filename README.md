@@ -59,6 +59,17 @@ These insights support more informed decision-making in utilization management, 
 
 ---
 
+## Dashboard
+
+An interactive dashboard was created in Google Sheets to visualize key insights from the dataset, including age distribution, healthcare cost trends, and the impact of chronic conditions.
+
+[View Interactive Dashboard](https://docs.google.com/spreadsheets/d/112zTg3MeRmX77Tkv7OCb7gLkWNcYsch_6_Ustr1eruI/edit?usp=sharing)
+
+---
+
+## Dashboard Preview
+
+
 ## Project Structure
 
 ```
