@@ -6,7 +6,7 @@ SQL-based analysis of healthcare claims data to identify trends in utilization, 
 
 ## Overview
 
-This project analyzes Medicare beneficiary data using SQL to identify age-related reimbursement trends, chronic condition impact, and patterns in healthcare utilization.
+This project analyzes Medicare beneficiary data using SQL to uncover patterns in healthcare utilization, cost distribution, and the impact of chronic conditions on reimbursement.
 
 ---
 
@@ -18,29 +18,29 @@ The dataset is heavily concentrated in older populations, with over 88% of benef
 
 ## Healthcare Cost Trends by Age Group
 
-Inpatient reimbursement shows a clear upward trend with age, peaking in the “Very Old” group, which suggests increased reliance on intensive healthcare services in later life stages.
+Inpatient reimbursement increases with age, peaking in the “Very Old” group, suggesting a greater reliance on intensive and high-cost healthcare services in later life stages.
 
-In contrast, outpatient reimbursement remains relatively consistent across age groups, indicating that routine care utilization is stable, while cost escalation is primarily driven by inpatient services.
+In contrast, outpatient reimbursement remains relatively stable across age groups, indicating that routine care utilization is consistent, while cost escalation is primarily driven by inpatient services.
 
-This pattern highlights inpatient care as a key driver of cost growth in aging populations.
+This highlights inpatient care as a key contributor to rising healthcare costs in aging populations.
 
 ---
 
 ## Chronic Condition Impact on Reimbursement
 
-Beneficiaries with diabetes incurred substantially higher healthcare costs compared to those without diabetes, with average inpatient reimbursement (4870.62) more than double that of non-diabetic patients (1830.82).
+Beneficiaries with diabetes incur significantly higher healthcare costs compared to those without diabetes. Average inpatient reimbursement for diabetic patients (4870.62) is more than double that of non-diabetic patients (1830.82).
 
-A similar trend is observed in outpatient reimbursement, indicating consistently higher utilization across care settings.
+A similar pattern is observed in outpatient reimbursement, indicating consistently higher utilization across care settings.
 
-These findings suggest that diabetes is a key driver of healthcare cost escalation and highlight the importance of targeted chronic condition management strategies to reduce long-term healthcare expenditure.
+These findings suggest that diabetes is a major driver of healthcare cost escalation and emphasize the importance of proactive chronic condition management strategies.
 
 ---
 
 ## High-Cost Beneficiary Patterns
 
-High-cost utilization was concentrated largely among beneficiaries in the “Old” and “Very Old” age groups, with the top records showing total reimbursement amounts between $171,190 and $262,720.
+High-cost utilization is concentrated among beneficiaries in the “Old” and “Very Old” groups, with top reimbursement values ranging from $171,190 to $262,720.
 
-These results suggest that a relatively small subset of beneficiaries accounts for a disproportionate share of healthcare spending, reinforcing the importance of identifying high-cost populations for targeted intervention, care coordination, and cost-containment efforts.
+This indicates that a relatively small subset of beneficiaries accounts for a disproportionate share of total healthcare spending, highlighting opportunities for targeted intervention, care coordination, and cost containment.
 
 ---
 
@@ -48,14 +48,14 @@ These results suggest that a relatively small subset of beneficiaries accounts f
 
 This analysis demonstrates how SQL can be used to transform raw healthcare data into actionable operational insights.
 
-Potential business applications include:
+Potential applications include:
 
 - Identifying age groups associated with higher inpatient cost burden  
-- Highlighting chronic condition populations that may require proactive care management  
-- Supporting resource planning by revealing utilization patterns across beneficiary groups  
-- Enabling healthcare organizations to focus cost-containment strategies on high-impact segments  
+- Highlighting chronic condition populations that may benefit from proactive care management  
+- Supporting resource planning by revealing utilization patterns across beneficiary segments  
+- Enabling healthcare organizations to focus cost-containment strategies on high-impact populations  
 
-These insights support more informed decision-making in utilization management, care coordination, and cost reduction initiatives.
+These insights support more informed decision-making in utilization management, care coordination, and cost optimization initiatives.
 
 ---
 
@@ -70,6 +70,8 @@ An interactive dashboard was created in Google Sheets to visualize key insights 
 ## Dashboard Preview
 
 ![Healthcare Claims Dashboard](healthcare_claims_analysis_dashboard.png)
+
+---
 
 ## Project Structure
 
@@ -103,7 +105,7 @@ healthcare-claims-sql-analysis/
 ## Skills Demonstrated
 
 - Data cleaning and transformation  
-- Type casting and data standardization  
+- Data type casting and standardization  
 - Aggregation and grouping  
 - Conditional logic using CASE statements  
 - Healthcare data analysis and insight generation  
@@ -112,7 +114,7 @@ healthcare-claims-sql-analysis/
 
 ## Summary
 
-This project demonstrates an end-to-end workflow of importing, cleaning, analyzing, and extracting actionable insights from healthcare data using SQL.
+This project demonstrates an end-to-end analytics workflow, from raw data ingestion and transformation to insight generation and dashboard visualization using SQL.
 
 ---
 
@@ -120,4 +122,4 @@ This project demonstrates an end-to-end workflow of importing, cleaning, analyzi
 
 - Extend analysis to additional chronic conditions  
 - Incorporate time-based trends if longitudinal data is available  
-- Build a dashboard (Excel or Power BI) for visualization and reporting  
+- Develop a Power BI or Excel dashboard for enhanced interactivity  
