@@ -69,6 +69,7 @@ An interactive dashboard was created in Google Sheets to visualize key insights 
 
 ## Dashboard Preview
 
+![Healthcare Claims Dashboard](healthcare_claims_analysis_dashboard.png)
 
 ## Project Structure
 
